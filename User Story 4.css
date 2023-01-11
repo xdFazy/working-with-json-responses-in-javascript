@@ -16,9 +16,36 @@
     margin-right: auto;
 }
 
+#randomJobTitle:empty, #randomJobPOW:empty, #randomJobDescription:empty{
+    display:none;
+}
+
+#buttonContainer{
+    width: 150px;
+}
+
+#JobButton{
+    width: 150px;
+    border-radius: 1em;
+    border: none;
+}
+
+#JobButton button:active{
+    border: none;
+}
+
+#content{
+    margin: auto;
+    width: 1200px;
+}
+
+
+/*
+    geht nicht größter dreck adam bitte fixen
+ */
+
 @media only screen and (max-width: 500px){
     #content{
-        font-size: xxx-large;
-        width: auto;
+        font-size: x-large;
     }
 }

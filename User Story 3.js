@@ -4,6 +4,7 @@ fetch('../OpenJsonData.json')
     .then(res => res.json())
     .then((data) => {
         console.log(data);
+
         //User Story 3
         document.getElementById("JobButton").addEventListener("click", function () {
             let job = data[Math.floor(Math.random()*data.length)];
