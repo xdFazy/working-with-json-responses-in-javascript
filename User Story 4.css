@@ -16,10 +16,6 @@
     margin-right: auto;
 }
 
-/*
-    geht nicht größter dreck adam bitte fixxen
- */
-
 @media only screen and (max-width: 500px){
     #content{
         font-size: xxx-large;
