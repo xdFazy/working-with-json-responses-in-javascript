@@ -13,3 +13,9 @@ fetch('OpenJsonData.json')
             });
     })
     .catch((error) => console.log(error));
+
+/*
+* $( "#JobButton" ).click(function() {
+    $( "#JobButton" ).css('background', 'green');
+  });
+*/
