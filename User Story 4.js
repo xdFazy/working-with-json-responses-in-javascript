@@ -1,4 +1,4 @@
-fetch('../OpenJsonData.json')
+fetch('OpenJsonData.json')
     .then(res => res.json())
     .then((data) => {
             console.log(data);
